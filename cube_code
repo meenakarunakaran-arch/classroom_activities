@@ -1,0 +1,12 @@
+""" Define a function to find a cube and define another function which let execute the cube function
+ if the number is divisible by 3 """
+def cube(number):
+    return number*number*number
+def div(number):
+    if number%3 == 0:
+        print("number is divisible by 3 \n")
+        return cube(number)
+    else:
+        print("number is not divisible by 3")
+        return False
+print(div(30))
