@@ -25,4 +25,4 @@ class myClass:
         print(myClass.__privateVar)
 foo = myClass()
 foo.hello()
-
+foo.__privMeth
