@@ -5,8 +5,8 @@ pygame.init()
 screen = pygame.display.set_mode((500, 500))
 pygame.display.set_caption("My first game screen")
 
-# background color
-bg_color = (58, 58, 58)
+bg_color = (58, 58, 58)# background color
+
 
 # load image (put your image file in same folder)
 img = pygame.image.load("image.png")
